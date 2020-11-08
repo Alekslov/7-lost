@@ -1,5 +1,5 @@
 body {
-    background-color: #DADADA;
+    background-color: #DADADA;  
     margin: 0;
 }
 header {
@@ -7,8 +7,38 @@ header {
     background-repeat: repeat-x;
 }
 footer {
-padding-top: 317px;
-background-image: url("./b2.png");
-background-repeat: repeat-x;
-background-position: bottom;
+    padding-top: 859px;
+    background-image: url("./b2.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    margin-top: 7px;
+}
+div > img {
+    position: relative;
+    width: 150px;
+    margin-block-end: 70px;
+}
+div > p {
+    margin-top: 0px;
+    display: inline-block;
+    margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 50px;
+    color: #525252;
+}
+div > a {
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: #525252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    display: inline-block;
+}
+.john {
+    margin-left: 950px;
+    margin-right: 950px;
+    margin-top: 130px;
+    position: absolute;
 }

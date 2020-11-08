@@ -1,31 +1,43 @@
-body {
-    background-color: #DADADA;  
+body {  
     margin: 0;
+    background: linear-gradient(to top,  #e5e5e5,#d9d9d9);
 }
 header {
     background-image: url("./b1.png");
     background-repeat: repeat-x;
 }
 footer {
-    padding-top: 859px;
+    padding-top: 186px;
     background-image: url("./b2.png");
     background-repeat: repeat-x;
-    background-position: bottom;
-    margin-top: 7px;
+    background-position: bottom;  
 }
 div > img {
-    position: relative;
-    width: 150px;
-    margin-block-end: 70px;
+    position: absolute;   width: 200px;
+    padding-left: 900px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding-block-start: 150px;       
 }
-div > p {
+.lost {
     margin-top: 0px;
     display: inline-block;
     margin-bottom: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 50px;
     color: #525252;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding-block-start: 100px;
+    padding-inline-start: 50px;
 }
 div > a {
     font-size: 20px;
@@ -33,12 +45,34 @@ div > a {
     text-decoration: none;
     color: #525252;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 200px;
+    width: 1800px;
     display: inline-block;
-}
-.john {
-    margin-left: 950px;
-    margin-right: 950px;
-    margin-top: 130px;
     position: absolute;
+    text-align: center;
+    padding-inline-start: 100px;
+    padding-block-start: 30px;
+    right: 0; 
+   left: 0;
 }
+.err {
+    position: relative;
+    font-size: 800px;
+    height: 0;
+    display: inline-block;
+    margin: 0;
+    bottom: 0;
+    color:#d9d9d9;
+    padding-left: 400px;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
